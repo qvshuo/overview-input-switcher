@@ -1,15 +1,21 @@
-# Hassleless Overview Search
+# Overview Input Switcher
 
-## Deprecated
+## Inspiration
 
-This extension is being replaced by [Better IBus](https://github.com/mechtifs/better-ibus). Thx :)
+This project is forked from [Hassleless Overview Search](https://github.com/mechtifs/hassleless-overview-search).
 
-## Introduction
+## Features
 
-This extension reverts the ibus input source to default when entering the overview, and restore it after exiting, which solves the conflict between the ibus popup and the \"Type to search\" feature.
+Switch to the default input source when entering the overview and restores it after exiting, resolving the conflict between the input method popup and the "Type to search" feature.
 
 ## Installation
 
-Please visit
+Clone the repository and install it manually:
 
-[<img src="https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/master/get-it-on-ego.svg?sanitize=true" alt="Get it on GNOME Extensions" height="100" align="middle">](https://extensions.gnome.org/extension/5769/hassleless-overview-search/)
+```sh
+git clone https://github.com/qvshuo/overview-input-switcher.git
+cd overview-input-switcher
+cp -r overview-input-switcher@anjing ~/.local/share/gnome-shell/extensions/
+```
+
+Then log out of the GNOME session and log back in.

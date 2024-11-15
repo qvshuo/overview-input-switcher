@@ -1,0 +1,10 @@
+{
+  "name": "Overview Input Switcher",
+  "description": "This extension switches to the default input source when entering the overview and restores it after exiting, resolving the conflict between the input method popup and the \"Type to search\" feature.",
+  "uuid": "overview-input-switcher@anjing",
+  "shell-version": ["47"],
+  "version": 1,
+  "url": "https://github.com/qvshuo/overview-input-switcher",
+  "author": "anjing",
+  "schema-version": 1
+}
